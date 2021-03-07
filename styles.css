@@ -64,17 +64,18 @@ body{
 }
 
 .btn-grid{
-    display: flex;
+    display: center;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 
 .btn {
-    background-color: #FFFCEB(200, 100%, 50%);
-    border: #FFFCEB(200, 100%, 30%);
+    color: #4B75B3;
+    background-color: #4B75B3(200, 100%, 50%);
+    border: #4B75B3(200, 100%, 30%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: black;
+    color: #4B75B3;
     outline: none;
 }
