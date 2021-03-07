@@ -4,19 +4,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
     background-color: #EDF6F9;
     font-family: 'Courier New';
 }
 
+.wrapper{
+    text-align: right;
+}
+
 .header{
-    top: 0;
-    height: 100px;
-    text-align: center;
+    background: #EDF6F9;
     color: #4B75B3;
+    height: 300px;
     font-size: 30px;
-;
 }
 
 /* customizable snowflake styling */
