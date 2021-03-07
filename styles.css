@@ -8,21 +8,11 @@ body{
     font-family: 'Courier New';
 }
 
-.wrapper{
-    text-align: right;
-}
-
 .header{
     background: #EDF6F9;
     color: #4B75B3;
-    height: 300px;
+    height: 100px;
     font-size: 30px;
-}
-
-.snowman{
-    width: 400px;
-    height: 500px;
-    
 }
 
 /* customizable snowflake styling */
@@ -44,6 +34,10 @@ body{
     background: linear-gradient(0deg, #83C5BE 24.18%, rgba(131, 197, 190, 0.9375) 29.41%, rgba(131, 197, 190, 0) 107.91%);
 }
 
+.option-buttons{
+    text-align: center;  
+}
+
 .button{
     color: white;
     background-color: #4B75B3;
@@ -51,5 +45,6 @@ body{
     padding: 10px 10px;
     text-decoration: none;
     border-radius: 4px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
 }
