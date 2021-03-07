@@ -7,6 +7,11 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #EDF6F9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title-wrapper{
+    
 }
 
 /* customizable snowflake styling */
@@ -17,3 +22,13 @@ body{
     font-family: Arial, sans-serif;
     text-shadow: 0 0 5px #000;
   }
+
+.background-wrapper{
+    position: absolute;
+    width: 1920px;
+    height: 455px;
+    left: 0px;
+    top: 569px;
+
+    background: linear-gradient(15.99deg, #83C5BE 53.67%, rgba(131, 197, 190, 0.9375) 56.17%, rgba(131, 197, 190, 0) 93.63%);  
+}
