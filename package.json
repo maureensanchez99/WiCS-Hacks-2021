@@ -1,0 +1,26 @@
+{
+  "name": "wics-hacks-2021",
+  "version": "1.0.0",
+  "description": "This is our project submission for the WiCS Hacks 2021",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maureensanchez99/WiCS-Hacks-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maureensanchez99/WiCS-Hacks-2021/issues"
+  },
+  "homepage": "https://github.com/maureensanchez99/WiCS-Hacks-2021#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.19",
+    "socket.io": "^3.1.2"
+  }
+}
